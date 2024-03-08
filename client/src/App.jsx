@@ -14,15 +14,15 @@ import UpdatePost from './pages/UpdatePost';
 import PostPage from './pages/PostPage';
 import ScrollToTop from './components/ScrollToTop';
 import Search from './pages/Search';
-import landingpage from './landing-page/landingpage'; 
+import Landingpage from './landing-page/landingpage'; 
 
 export default function App() {
   return (
     <BrowserRouter>
-      <ScrollToTop />
-      <Header />
+      
       <Routes>
-        <Route path='/' element={<landingpage />} />
+      <Route path='/landing' element={<Landingpage />} />
+        <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/sign-in' element={<SignIn />} />
         <Route path='/sign-up' element={<SignUp />} />

@@ -8,7 +8,7 @@ import Pricing from "./components/Pricing";
 import Roadmap from "./components/Roadmap";
 import Services from "./components/Services";
 
-const landingpage = () => {
+const Landingpage = () => {
   return (
     <>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
@@ -27,4 +27,4 @@ const landingpage = () => {
   );
 };
 
-export default landingpage;
+export default Landingpage;

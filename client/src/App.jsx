@@ -19,7 +19,7 @@ import Landingpage from './landing-page/landingpage';
 export default function App() {
   return (
     <BrowserRouter>
-      
+       <Header />
       <Routes>
       <Route path='/landing' element={<Landingpage />} />
         <Route path='/' element={<Home />} />
